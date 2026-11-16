@@ -20,7 +20,7 @@
           cargoTestFlags = [ "--workspace" ];
           meta = with pkgs.lib; {
             description = "A terminal notes editor with live Markdown preview";
-            homepage = "https://github.com/Yuvraj-cyborg/notopod";
+            homepage = "https://github.com/yuvichh/notopod";
             license = licenses.mit;
             mainProgram = "notopod";
           };

@@ -55,8 +55,8 @@ version = "0.5.0"
 edition = "2021"
 rust-version = "1.88"
 license = "MIT"
-repository = "https://github.com/Yuvraj-cyborg/notopod"
-homepage = "https://github.com/Yuvraj-cyborg/notopod"
+repository = "https://github.com/yuvichh/notopod"
+homepage = "https://github.com/yuvichh/notopod"
 keywords = ["notes", "markdown", "tui", "editor", "terminal"]
 categories = ["text-editors", "command-line-utilities"]
 

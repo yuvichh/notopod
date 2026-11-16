@@ -87,7 +87,7 @@ workspace share one version number.
 - An installer, so there is a one-line way in:
 
   ```sh
-  curl -fsSL https://raw.githubusercontent.com/Yuvraj-cyborg/notopod/main/install.sh | sh
+  curl -fsSL https://raw.githubusercontent.com/yuvichh/notopod/main/install.sh | sh
   ```
 
   It works out the target from `uname`, takes that archive from the
@@ -268,11 +268,11 @@ First release. A working editor with live preview; no diagram language yet.
 - CI on Linux, macOS and Windows; tagged releases build binaries for five
   targets.
 
-[Unreleased]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.5.0...HEAD
-[0.5.0]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.4.0...v0.5.0
-[0.4.0]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.3.1...v0.4.0
-[0.3.1]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.3.0...v0.3.1
-[0.3.0]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.2.1...v0.3.0
-[0.2.1]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.1.2...v0.2.1
-[0.1.2]: https://github.com/Yuvraj-cyborg/notopod/compare/v0.1.0...v0.1.2
-[0.1.0]: https://github.com/Yuvraj-cyborg/notopod/releases/tag/v0.1.0
+[Unreleased]: https://github.com/yuvichh/notopod/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/yuvichh/notopod/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/yuvichh/notopod/compare/v0.3.1...v0.4.0
+[0.3.1]: https://github.com/yuvichh/notopod/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/yuvichh/notopod/compare/v0.2.1...v0.3.0
+[0.2.1]: https://github.com/yuvichh/notopod/compare/v0.1.2...v0.2.1
+[0.1.2]: https://github.com/yuvichh/notopod/compare/v0.1.0...v0.1.2
+[0.1.0]: https://github.com/yuvichh/notopod/releases/tag/v0.1.0

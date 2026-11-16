@@ -4,7 +4,7 @@
 
 set -eu
 
-REPO="Yuvraj-cyborg/notopod"
+REPO="yuvichh/notopod"
 VERSION="${NOTOPOD_VERSION:-latest}"
 INSTALL_DIR="${NOTOPOD_INSTALL_DIR:-$HOME/.local/bin}"
 
@@ -25,7 +25,7 @@ usage() {
 Installs notopod: the right prebuilt binary for this machine, from the
 latest GitHub release.
 
-  curl -fsSL https://raw.githubusercontent.com/Yuvraj-cyborg/notopod/main/install.sh | sh
+  curl -fsSL https://raw.githubusercontent.com/yuvichh/notopod/main/install.sh | sh
 
 Options, as flags or as environment variables:
 

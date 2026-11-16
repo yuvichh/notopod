@@ -7,8 +7,8 @@
 **Notes in your terminal, formatted while you type.**<br>
 **Diagrams drawn by hand, with the keyboard.**
 
-[![CI](https://github.com/Yuvraj-cyborg/notopod/actions/workflows/ci.yml/badge.svg)](https://github.com/Yuvraj-cyborg/notopod/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/Yuvraj-cyborg/notopod?color=4c7fd4)](https://github.com/Yuvraj-cyborg/notopod/releases)
+[![CI](https://github.com/yuvichh/notopod/actions/workflows/ci.yml/badge.svg)](https://github.com/yuvichh/notopod/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/yuvichh/notopod?color=4c7fd4)](https://github.com/yuvichh/notopod/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-4c7fd4)](LICENSE)
 
 </div>
@@ -43,7 +43,7 @@ A Markdown editor for the terminal. One binary, no runtime, about 4 MB.
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Yuvraj-cyborg/notopod/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/yuvichh/notopod/main/install.sh | sh
 ```
 
 That takes the right binary for your machine from the latest release,
@@ -52,18 +52,18 @@ checks it against the sha256 published beside it, and puts it in
 goes, or to pin a version:
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Yuvraj-cyborg/notopod/main/install.sh \
+curl -fsSL https://raw.githubusercontent.com/yuvichh/notopod/main/install.sh \
   | sh -s -- --to /usr/local/bin --version v0.5.0
 ```
 
 If you would rather not pipe the internet into a shell — fair — the script
 is [right here](install.sh) to read first, the
-[releases page](https://github.com/Yuvraj-cyborg/notopod/releases) has the
+[releases page](https://github.com/yuvichh/notopod/releases) has the
 archives for Linux, macOS and Windows, and there is always:
 
 ```sh
-cargo install --git https://github.com/Yuvraj-cyborg/notopod   # needs Rust 1.88+
-nix run github:Yuvraj-cyborg/notopod                           # try it without installing
+cargo install --git https://github.com/yuvichh/notopod   # needs Rust 1.88+
+nix run github:yuvichh/notopod                           # try it without installing
 ```
 
 Inside a clone, `cargo install --path .` installs your working copy — run
